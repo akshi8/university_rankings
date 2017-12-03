@@ -1,8 +1,11 @@
 ---
-    title: "Initial Analysis"
-    author: "Akshi Chaudhary"
-    date: "`r format(Sys.Date())`"
-    output: github_document
+title: "Initial Analysis"
+author: "Akshi Chaudhary"
+date: '`r format(Sys.Date())`'
+output: 
+  pdf_document: default
+  html_document: default
+
 ---
 
 ```{r setup, include=FALSE}
@@ -14,13 +17,6 @@ library(dplyr)
 library(tidyverse)
 library(ggplot2)
 ```
-
-```{r}
-setwd("../data/raw")
-```
-
-
-
 
 
 ```{r, message=FALSE, warning=FALSE}
@@ -38,18 +34,52 @@ times %>% filter(university_name == 'University of British Columbia')
 ```
 
 ```{r}
-shang %>% filter(university_name == 'University of British Columbia')
+#shang %>% filter(university_name == 'University of British Columbia')
 ```
 
 ```{r}
-cwu %>% filter(institution == 'University of British Columbia')
+#cwu %>% filter(institution == 'University of British Columbia')
 ```
 
 
 ```{r}
-
-
-ggplot(shang,aes(pub,as.integer(world_rank))) + geom_point() + geom_smooth(method = lm)
-ggplot(cwu,aes(1/publications,world_rank)) + geom_point() + geom_smooth(method = lm)
+country_score <- times %>% filter(total_score != '') %>% group_by(country) %>% summarise(best_score = max(total_score)) %>% select(country,best_score) %>% arrange(desc(best_score))
 ```
+
+```{r}
+
+colnames(expenditure)[4] <- "y1995"
+colnames(expenditure)[5] <- "y2000"
+colnames(expenditure)[6] <- "y2005"
+colnames(expenditure)[7] <- "y2009"
+colnames(expenditure)[8] <- "y2010"
+colnames(expenditure)[9] <- "y2011"
+
+expenditure
+expenditure <- expenditure %>% mutate(y1995 = ifelse(is.na(y1995),0,y1995)
+                                      ,y2000 = ifelse(is.na(y2000),0,y2000)
+                                      ,y2005 = ifelse(is.na(y2005),0,y2005)
+                                      ,y2009 = ifelse(is.na(y2009),0,y2009)
+                                      ,y2010 = ifelse(is.na(y2010),0,y2010) 
+                                      ,y2011 = ifelse(is.na(y2011),0,y2011))
+
+school_exp <- expenditure %>% filter(direct_expenditure_type !='Total') %>%mutate(avg_exp = (y1995+ y2000 +y2005+y2009+y2010+y2011)/6) %>% group_by(country,direct_expenditure_type,institute_type) %>% summarise(total_exp = sum(avg_exp))
+```
+
+```{r}
+
+school_exp %>% filter(direct_expenditure_type == 'Public') %>% ggplot(aes(total_exp,fill = institute_type )) + geom_density( aes(y = ..count..)) + labs(title = 'Expenditure by countries based on Institute type', x = 'expenditure in billion dollars') + theme(axis.text=element_text(size=8),axis.title=element_text(size=10,face="bold" )) +theme_bw() 
+```
+
+
+```{r}
+library(forcats)
+country_score$country <- factor(country_score$country , levels = country_score$country [order(country_score$best_score)])
+
+country_score %>% top_n(20) %>% arrange(desc(best_score)) %>% ggplot(aes(x = best_score, y = country)) + geom_point(fill ='blue') +labs(title = 'Country eductaion score based on institition rankings', x = 'Best Score', y ='Country') + theme(axis.text=element_text(size=8),
+        axis.title=element_text(size=14,face="bold")) +theme_bw()
+
+
+```
+
 
