@@ -1,0 +1,55 @@
+---
+    title: "Initial Analysis"
+    author: "Akshi Chaudhary"
+    date: "`r format(Sys.Date())`"
+    output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+setwd("../data/raw")
+```
+
+
+
+
+
+```{r, message=FALSE, warning=FALSE}
+shang <- read_csv('../data/raw/shanghaiData.csv', trim_ws = TRUE)
+times <- read_csv('../data/raw/timesData.csv', trim_ws = TRUE)
+cwu <- read_csv('../data/raw/cwurData.csv', trim_ws = TRUE)
+expenditure <- read_csv('../data/raw/education_expenditure_supplementary_data.csv', trim_ws = TRUE)
+```
+
+
+
+```{r}
+times %>% filter(university_name == 'University of British Columbia')
+
+```
+
+```{r}
+shang %>% filter(university_name == 'University of British Columbia')
+```
+
+```{r}
+cwu %>% filter(institution == 'University of British Columbia')
+```
+
+
+```{r}
+
+
+ggplot(shang,aes(pub,as.integer(world_rank))) + geom_point() + geom_smooth(method = lm)
+ggplot(cwu,aes(1/publications,world_rank)) + geom_point() + geom_smooth(method = lm)
+```
+
