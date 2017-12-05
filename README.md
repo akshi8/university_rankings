@@ -24,11 +24,23 @@
 
 * Be sure to be in the project directory before running the data download script, if you used the cookie-cutter.sh for creating repos
 
+* You will need to install the kaggle client for download data using the kaggle.sh , type the following command in your command line
+
+        pip install kaggle-cli 
+        
+* After you kaggle client is downloaded you can use the kaggle_dat.sh to download data:
+* The use of kaggle client is to easily specify which comptition or member's data do you want to download
+
+> eg : kg dataset -u 'username' -p 'password' -o kagglemembername -d the-kaggle-dataset-name
+
+* Now to download the University ranking datasets, simply run the kaggle_dat.sh shell script
+
+
         bash kaggle_dat.sh
 
 * Kaggle data download requires user to login with username and password, so after running the `kaggle_dat.sh` file you'll be required to enter your kaggle user name and password
 
-* Also, note the above step will require you to sign up for kaggle if you're not a member
+> Also, note the above step will require you to sign up for kaggle if you're not a member
 
 ## About Data
 
