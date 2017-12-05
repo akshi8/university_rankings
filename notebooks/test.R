@@ -1,7 +1,9 @@
 install.packages("packrat")
 
-install.packages("cowplot")
-library(cowplot)
+#install.packages("plumber")
+library(plumber)
+
+#packrat::snapshot()
 
 mean_hp <- mean(mtcars$hp)
 print(mean_hp)
