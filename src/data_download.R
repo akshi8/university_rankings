@@ -12,13 +12,16 @@
 args <- commandArgs(trailingOnly = TRUE)
 url1 <- args[1]
 filename <- args[2]
+url2 <- args[3]
+filename2 <- args[4]
 
 # read from url
 main <- function(){
 times <- read.csv(url(url1), header=TRUE, sep=",")
-head(times)
+expenditure <- read.csv(url(url2), header=TRUE, sep=",")
 
 write.csv(times, file = filename)
+write.csv(expenditure, file = filename2)
 }
 # call main function
 main()
