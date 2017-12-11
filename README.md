@@ -98,7 +98,7 @@ See the rendered output in `docs` repo [Initial_analysis.PDF](https://github.com
 
 * The following plot shows that `higher education expenditures` best explain the higher scores in country education rankings
 
-    ![Education_score_Vs_Expenditure](results/Education_score_Vs_Expenditure.PNG)
+    ![Education_score_Vs_Expenditure](results/Education_score_Vs_Expenditure.png)
 
 
 * The p-value for higher education expenditure versus score is on the margin of significance level testing i.e. 0.056, so it does not provide a very concrete evidence to reject the null hypothesis
