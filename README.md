@@ -14,7 +14,7 @@
 
 Ranking universities is a difficult, political, and controversial practice. There are hundreds of different national and international university ranking systems, many of which disagree with each other.
 
-For this project we will mainly two sources of data :
+For this project we will mainly use two data sources :
 
 >  University ranking data
 
@@ -32,10 +32,10 @@ Does spending more on education lead to better international university rankings
 
 For a preliminary analysis, I will start with one question and hypothesize around it
 
-1. Question
-  * Null: Percent GDP expenditure on public education institutions doesn't affect higher education ranking of a country
 
-  * Alternate: Higher Percent GDP expenditure on public education institutions corresponds to higher education ranking of a country
+  Null Hypothesis: Percent GDP expenditure on public education institutions doesn't affect higher education ranking of a country
+
+  Alternate Hypothesis: Higher Percent GDP expenditure on public education institutions corresponds to higher education ranking of a country
 
 
 ## Data Download
@@ -57,46 +57,45 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
   - data cleaning and summary [data_summary.R](https://github.com/akshi8/University_rankings/blob/master/src/data_summary.R)
   - data visualization [data_visualizations.R](https://github.com/akshi8/University_rankings/blob/master/src/data_visualizations.R)
 
-> Knitting  Markdown report all the above steps and modelling results
+> Knitting R Markdown report having all the above steps and modelling results
 
   - data report in R markdown [Initial_analysis_Report.Rmd](https://github.com/akshi8/University_rankings/blob/master/reports/Initial_analysis_Report.rmd)
   - Rmd to be knit with `ezknitr::ezknit`
 
+## Script Usage
 
 * Running the [makefile.sh](https://github.com/akshi8/University_rankings/blob/master/src/Makefile.sh)
 
       bash Makefile.sh
 
-* The Makefile will do the following things:
+>  The Makefile will do the following things:
 
-  - Download data from external data into raw data repo of [data](https://github.com/akshi8/University_rankings/tree/master/data)
-  - Take the raw data files named: `times.csv` and `expenditure.csv`  and do the following
+1. Download data from `external` data into `raw` data repo of using the [data_download.R](https://github.com/akshi8/University_rankings/blob/master/src/data_download.R) script
+
+2. Take the raw data files named: `times.csv` and `expenditure.csv` and do the following using the [data_summary.R](https://github.com/akshi8/University_rankings/blob/master/src/data_summary.R) script
       - Missing value treatment
       - formatting datatypes
       - dropping unwanted variables
       - summarising data
       - output summarised datasets in [processed](https://github.com/akshi8/University_rankings/tree/master/data/processed) data repo as `rank.csv` and `school_exp.csv`
-
-  - The processed data is used to plot data summaries in the form of visualizations
+3. The processed data is used to plot data summaries in the form of visualizations using the [data_visualizations.R](https://github.com/akshi8/University_rankings/blob/master/src/data_visualizations.R)
       - Put all visualizations in results repo
       - figure on country education rankings [country_edu_rank](https://github.com/akshi8/University_rankings/blob/master/results/country_edu_rank.png)
       - figure of education expenditure across institutions types [expenditure.png](https://github.com/akshi8/University_rankings/blob/master/results/expenditure.png)
 
-  - Knit R markdown file with linear model results and hypothesis testing
+4. Knit R markdown file with linear model results and hypothesis testing using the [Initial_analysis_Report.Rmd](https://github.com/akshi8/University_rankings/blob/master/reports/Initial_analysis_Report.rmd)
     - save linear model figure to results [Education_score_Vs_Expenditure](https://github.com/akshi8/University_rankings/blob/master/results/Education_score_Vs_Expenditure.png)
 
-* Here is the data workflow diagram  for a quick look
+> Here is the data workflow diagram  for a quick look
 ![data_dependencies](from_team/data_dependency.PNG)
 
 ## Analysis reports
 
-* The analysis report in the form of R markdown file has been knitted to PDF and md
+* The analysis report in the form of R markdown file has been knitted to PDF and .md
 * The report explains the whole analysis structure through code chunks and plots
 
 See the rendered output in the `reports` and `docs` repo
-[Initial_analysis_Report.md](https://github.com/akshi8/University_rankings/blob/master/reports/Initial_analysis_Report.md)
-
-[Initial_analysis.PDF](https://github.com/akshi8/University_rankings/tree/master/docs)
+[Initial_analysis_Report.md](https://github.com/akshi8/University_rankings/blob/master/reports/Initial_analysis_Report.md) , [Initial_analysis.PDF](https://github.com/akshi8/University_rankings/tree/master/docs)
 
 
 ## Hypothesis testing and figures
@@ -106,7 +105,7 @@ See the rendered output in the `reports` and `docs` repo
     ![Education_score_Vs_Expenditure](results/Education_score_Vs_Expenditure.png)
 
 
-* The p-value for higher education expenditure versus the education score is on the margin of significance level testing i.e. 0.056, so it does not provide a very concrete evidence to reject the null hypothesis
+* The p-value for higher education expenditure versus the education score is on the margin of significance level i.e. 0.056 (0.05 is the significance level), so it does not provide a very concrete evidence to reject the null hypothesis
 
 * This could possibly mean while public expenditure is important for good higher education ranking of a country, it is not the only variable to explain it
 
@@ -132,4 +131,4 @@ Some other hypothesis/ questions that I will be working on are :
 #### Questions:
 
 1. Does `male-to-female` ratio of an institute influence its ranking?
-2. Does the amount of research activity affect university ranking?
+2. Does the amount of `research activity` affect university ranking?
