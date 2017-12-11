@@ -18,7 +18,7 @@ Rscript src/data_download.R "https://raw.githubusercontent.com/akshi8/University
 Rscript src/data_summary.R data/raw/times.csv data/raw/expenditure.csv data/processed/rank.csv data/processed/school_exp.csv
 
 #Runs script for creating the figures of summarized data
-Rscript src/data_visualizations.R data/processed/rank.csv data/processed/school_exp.csv results/expenditure.png results/country_rank.png
+Rscript src/data_visualizations.R data/processed/rank.csv data/processed/school_exp.csv results/expenditure.png results/country_edu_rank.png
 
 
 #Run scripts for creating the report
