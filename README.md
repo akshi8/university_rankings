@@ -84,6 +84,8 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
   - Knit R markdown file with linear model results and hypothesis testing
     - save linear model figure to results [Education_score_Vs_Expenditure](https://github.com/akshi8/University_rankings/blob/master/results/Education_score_Vs_Expenditure.png)
 
+* Here is the data workflow diagram  for a quick look
+![data_dependencies](from_team/data_dependency.png)
 
 ## Analysis reports
 
