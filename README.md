@@ -75,7 +75,8 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
       - formatting datatypes
       - dropping unwanted variables
       - summarising data
-      - output summarised datasets in [processed](https://github.com/akshi8/University_rankings/tree/master/data/processed) data repo
+      - output summarised datasets in [processed](https://github.com/akshi8/University_rankings/tree/master/data/processed) data repo as `rank.csv` and `school_exp.csv`
+
   - The processed data is used to plot data summaries in the form of visualizations
       - Put all visualizations in results repo
       - figure on country education rankings [country_edu_rank](https://github.com/akshi8/University_rankings/blob/master/results/country_edu_rank.png)
@@ -89,21 +90,23 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
 ## Analysis reports
 
-* The analysis report in the form of R markdown file has been knitted to PDF
+* The analysis report in the form of R markdown file has been knitted to PDF and md
 * The report explains the whole analysis structure through code chunks and plots
 
-See the rendered output in `docs` repo [Initial_analysis.PDF](https://github.com/akshi8/University_rankings/tree/master/docs)
+See the rendered output in the `reports` and `docs` repo
+[Initial_analysis_Report.md](https://github.com/akshi8/University_rankings/blob/master/reports/Initial_analysis_Report.md)
 
+[Initial_analysis.PDF](https://github.com/akshi8/University_rankings/tree/master/docs)
 
 
 ## Hypothesis testing and figures
 
-* The following plot shows that `higher education expenditures` best explain the higher scores in country education rankings
+* The following plot shows that `higher education expenditures` best explain the high scores in country education rankings
 
     ![Education_score_Vs_Expenditure](results/Education_score_Vs_Expenditure.png)
 
 
-* The p-value for higher education expenditure versus score is on the margin of significance level testing i.e. 0.056, so it does not provide a very concrete evidence to reject the null hypothesis
+* The p-value for higher education expenditure versus the education score is on the margin of significance level testing i.e. 0.056, so it does not provide a very concrete evidence to reject the null hypothesis
 
 * This could possibly mean while public expenditure is important for good higher education ranking of a country, it is not the only variable to explain it
 
@@ -115,20 +118,18 @@ See the rendered output in `docs` repo [Initial_analysis.PDF](https://github.com
 
 * All the ranking sources use different parameters to calculate total score of an institute and rank it accordingly
 
-* Some of the common metrics for calculating score are :
+* Some of the common metrics used for calculating score are :
   * international students
   * research
-  * publications    income
+  * publications  
   * num_students
   * student_staff_ratio
   * female_male_ratio
   * alumni job score
 
 
-Some other hypothesis/ questions that I will be working on are
+Some other hypothesis/ questions that I will be working on are :
 #### Questions:
 
-To start with we can ask the following questions based on the data we have
-
 1. Does `male-to-female` ratio of an institute influence its ranking?
-2. Do the amount of research activity affect university ranking?
+2. Does the amount of research activity affect university ranking?
