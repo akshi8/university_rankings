@@ -85,7 +85,7 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
     - save linear model figure to results [Education_score_Vs_Expenditure](https://github.com/akshi8/University_rankings/blob/master/results/Education_score_Vs_Expenditure.png)
 
 * Here is the data workflow diagram  for a quick look
-![data_dependencies](from_team/data_dependency.png)
+![data_dependencies](from_team/data_dependency.PNG)
 
 ## Analysis reports
 
