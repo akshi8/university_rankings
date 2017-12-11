@@ -1,0 +1,25 @@
+#!/bin/bash
+
+## Create a driver script to execute R scripts based on the input arguments
+
+## Author : Akshi Chaudhary
+## Date: December 2017
+## usage: bash run_all.sh
+
+
+
+echo " Make sure your current directory is the Project directory root"
+
+#Runs script for importing data
+Rscript src/data_download.R "https://raw.githubusercontent.com/akshi8/University_rankings/v1.1/data/external/timesData.csv" data/raw/times.csv "https://raw.githubusercontent.com/akshi8/University_rankings/v1.1/data/external/education_expenditure_supplementary_data.csv" data/raw/expenditure.csv
+
+
+#Runs script for  data cleaning and summary
+Rscript src/data_summary.R data/raw/times.csv data/raw/expenditure.csv data/processed/rank.csv data/processed/school_exp.csv
+
+#Runs script for creating the figures of summarized data
+Rscript src/data_visualizations.R data/processed/rank.csv data/processed/school_exp.csv results/expenditure.png results/country_rank.png
+
+
+#Run scripts for creating the report
+Rscript -e 'ezknitr::ezknit("src/report.Rmd", out_dir="./doc")'
