@@ -1,0 +1,334 @@
+"","country","institute_type","direct_expenditure_type","X1995","X2000","X2005","X2009","X2010","X2011"
+"1","OECD Average","All Institutions ","Public",4.9,4.9,5,5.4,5.4,5.3
+"2","Australia","All Institutions ","Public",4.5,4.6,4.3,4.5,4.6,4.3
+"3","Austria","All Institutions ","Public",5.3,5.4,5.2,5.7,5.6,5.5
+"4","Belgium","All Institutions ","Public",5,5.1,5.8,6.4,6.4,6.4
+"5","Canada","All Institutions ","Public",5.8,5.2,4.8,5,5.2,NA
+"6","Chile","All Institutions ","Public",NA,4.2,3.3,4.1,4.3,3.9
+"7","Czech Republic","All Institutions ","Public",4.8,4.2,4.1,4.2,4.1,4.4
+"8","Denmark","All Institutions ","Public",6.5,6.4,6.8,7.5,7.6,7.5
+"9","Estonia","All Institutions ","Public",NA,NA,4.7,5.9,5.6,5.2
+"10","Finland","All Institutions ","Public",6.6,5.5,5.9,6.3,6.4,6.3
+"11","France","All Institutions ","Public",5.8,5.7,5.6,5.8,5.8,5.6
+"12","Germany","All Institutions ","Public",4.5,4.3,4.2,4.5,NA,4.4
+"13","Greece","All Institutions ","Public",3.7,3.7,4,NA,NA,NA
+"14","Hungary","All Institutions ","Public",4.9,4.4,5.1,4.8,4.6,4.4
+"15","Iceland","All Institutions ","Public",4.5,5.7,7.2,7.3,7,6.9
+"16","Ireland","All Institutions ","Public",4.7,4.1,4.3,6,6,5.7
+"17","Israel","All Institutions ","Public",NA,6.6,6.2,5.8,5.9,5.6
+"18","Italy","All Institutions ","Public",4.5,4.5,4.3,4.5,4.3,4.2
+"19","Japan","All Institutions ","Public",3.6,3.5,3.4,3.6,3.6,3.6
+"20","Korea, Republic of","All Institutions ","Public",3.6,4.3,4.3,4.9,4.8,4.9
+"21","Luxembourg","All Institutions ","Public",4.3,NA,NA,NA,NA,NA
+"22","Mexico","All Institutions ","Public",4.6,4.7,5.3,5,5.1,5
+"23","Netherlands","All Institutions ","Public",4.6,4.3,4.6,5.3,5.4,5.3
+"24","New Zealand","All Institutions ","Public",5.3,5.8,5.2,6.1,6,6.3
+"25","Norway","All Institutions ","Public",6.8,5.8,5.7,6.1,7.5,7.3
+"26","Poland","All Institutions ","Public",5.2,5.2,5.4,5,5,4.8
+"27","Portugal","All Institutions ","Public",5.4,5.6,5.3,5.5,5.4,5.1
+"28","Slovak Republic","All Institutions ","Public",4.6,4,3.7,4.1,4,3.8
+"29","Slovenia","All Institutions ","Public",NA,NA,5.3,5.3,5.2,5.3
+"30","Spain","All Institutions ","Public",4.8,4.3,4.1,4.9,4.8,4.7
+"31","Sweden","All Institutions ","Public",6.6,6.3,6.2,6.6,6.3,6.2
+"32","Switzerland","All Institutions ","Public",5.5,5.3,5.6,5.5,5.2,5.2
+"33","Turkey","All Institutions ","Public",2.2,3.4,NA,NA,NA,NA
+"34","United Kingdom","All Institutions ","Public",4.6,4.5,5,5.3,5.9,5.6
+"35","United States","All Institutions ","Public",5,4.6,4.9,5.3,5.1,4.7
+"36","  Brazil","All Institutions ","Public",NA,NA,4.4,5.5,5.6,5.9
+"37","  Russian Federation","All Institutions ","Public",3.4,3,3.8,4.7,4.1,3.9
+"38","OECD Average","Elementary and Secondary Institutions ","Public",3.5,3.4,3.5,3.7,3.7,3.6
+"39","Australia","Elementary and Secondary Institutions ","Public",3.2,3.7,3.4,3.6,3.7,3.5
+"40","Austria","Elementary and Secondary Institutions ","Public",3.8,3.7,3.5,3.8,3.5,3.5
+"41","Belgium","Elementary and Secondary Institutions ","Public",3.4,3.4,3.9,4.3,4.3,4.3
+"42","Canada","Elementary and Secondary Institutions ","Public",4,3.3,3.3,3.4,3.6,NA
+"43","Chile","Elementary and Secondary Institutions ","Public",NA,3.2,2.7,3.3,2.9,2.7
+"44","Czech Republic","Elementary and Secondary Institutions ","Public",3.4,2.8,2.7,2.6,2.6,2.6
+"45","Denmark","Elementary and Secondary Institutions ","Public",4.2,4.1,4.4,4.7,4.7,4.3
+"46","Estonia","Elementary and Secondary Institutions ","Public",NA,NA,3.5,4.1,3.9,3.3
+"47","Finland","Elementary and Secondary Institutions ","Public",4.2,3.5,3.8,4.1,4.1,4.1
+"48","France","Elementary and Secondary Institutions ","Public",4.1,4,3.8,3.8,3.8,3.7
+"49","Germany","Elementary and Secondary Institutions ","Public",2.9,2.9,2.8,2.9,NA,2.8
+"50","Greece","Elementary and Secondary Institutions ","Public",2.8,2.7,2.5,NA,NA,NA
+"51","Hungary","Elementary and Secondary Institutions ","Public",3.3,2.8,3.3,3,2.8,2.6
+"52","Iceland","Elementary and Secondary Institutions ","Public",3.4,4.6,5.2,5,4.7,4.7
+"53","Ireland","Elementary and Secondary Institutions ","Public",3.3,2.9,3.3,4.6,4.6,4.4
+"54","Israel","Elementary and Secondary Institutions ","Public",NA,4.5,4.2,3.8,4,3.8
+"55","Italy","Elementary and Secondary Institutions ","Public",3.2,3.2,3.2,3.3,3.1,3
+"56","Japan","Elementary and Secondary Institutions ","Public",2.8,2.7,2.6,2.7,2.8,2.7
+"57","Korea, Republic of","Elementary and Secondary Institutions ","Public",3,3.3,3.4,3.6,3.4,3.4
+"58","Luxembourg","Elementary and Secondary Institutions ","Public",4.2,NA,3.7,3.2,3.4,3.3
+"59","Mexico","Elementary and Secondary Institutions ","Public",3.4,3.3,3.7,3.3,3.4,3.3
+"60","Netherlands","Elementary and Secondary Institutions ","Public",3,3,3.3,3.7,3.7,3.6
+"61","New Zealand","Elementary and Secondary Institutions ","Public",3.8,4.6,4,4.5,4.4,4.8
+"62","Norway","Elementary and Secondary Institutions ","Public",4.1,3.6,3.8,4.2,5.1,4.9
+"63","Poland","Elementary and Secondary Institutions ","Public",3.3,3.7,3.7,3.5,3.4,3.2
+"64","Portugal","Elementary and Secondary Institutions ","Public",4.1,4.1,3.8,4,3.9,3.7
+"65","Slovak Republic","Elementary and Secondary Institutions ","Public",NA,2.7,2.5,2.7,2.8,2.5
+"66","Slovenia","Elementary and Secondary Institutions ","Public",NA,NA,3.9,3.6,3.6,3.5
+"67","Spain","Elementary and Secondary Institutions ","Public",3.5,3.1,2.7,3.1,3,2.9
+"68","Sweden","Elementary and Secondary Institutions ","Public",4.4,4.4,4.2,4.2,4,3.9
+"69","Switzerland","Elementary and Secondary Institutions ","Public",4.1,3.8,3.9,3.8,3.6,3.6
+"70","Turkey","Elementary and Secondary Institutions ","Public",1.4,2.4,NA,NA,2.5,NA
+"71","United Kingdom","Elementary and Secondary Institutions ","Public",3.8,3.4,3.8,4.5,4.8,4.4
+"72","United States","Elementary and Secondary Institutions ","Public",3.5,3.5,3.6,3.8,3.7,3.4
+"73","  Brazil","Elementary and Secondary Institutions ","Public",NA,NA,3.3,4.3,4.3,4.4
+"74","  Russian Federation","Elementary and Secondary Institutions ","Public",1.9,1.7,1.9,2.3,2,2
+"75","OECD Average","Higher Education Institutions ","Public",0.9,1,1,1.1,1.1,1.1
+"76","Australia","Higher Education Institutions ","Public",1.2,0.8,0.8,0.7,0.8,0.7
+"77","Austria","Higher Education Institutions ","Public",0.9,1.2,1.2,1.4,1.5,1.4
+"78","Belgium","Higher Education Institutions ","Public",0.9,1.2,1.2,1.4,1.4,1.3
+"79","Canada","Higher Education Institutions ","Public",1.5,1.6,1.5,1.5,1.6,NA
+"80","Chile","Higher Education Institutions ","Public",NA,0.6,0.3,0.3,0.8,0.7
+"81","Czech Republic","Higher Education Institutions ","Public",0.7,0.8,0.8,1,1,1.2
+"82","Denmark","Higher Education Institutions ","Public",1.3,1.5,1.6,1.8,1.8,1.8
+"83","Estonia","Higher Education Institutions ","Public",NA,NA,0.9,1.3,1.3,1.4
+"84","Finland","Higher Education Institutions ","Public",1.7,1.7,1.7,1.8,1.9,1.9
+"85","France","Higher Education Institutions ","Public",1,1,1.1,1.3,1.3,1.3
+"86","Germany","Higher Education Institutions ","Public",1,1,0.9,1.1,NA,1.1
+"87","Greece","Higher Education Institutions ","Public",0.8,0.9,1.4,NA,NA,NA
+"88","Hungary","Higher Education Institutions ","Public",0.8,0.9,0.9,1,0.8,1
+"89","Iceland","Higher Education Institutions ","Public",0.7,0.8,1.1,1.2,1.1,1.1
+"90","Ireland","Higher Education Institutions ","Public",0.9,1.2,1,1.4,1.3,1.2
+"91","Israel","Higher Education Institutions ","Public",NA,1.1,1,1,1,0.9
+"92","Italy","Higher Education Institutions ","Public",0.7,0.7,0.6,0.8,0.8,0.8
+"93","Japan","Higher Education Institutions ","Public",0.4,0.5,0.5,0.5,0.5,0.5
+"94","Korea, Republic of","Higher Education Institutions ","Public",0.3,0.6,0.6,0.7,0.7,0.7
+"95","Luxembourg","Higher Education Institutions ","Public",0.1,NA,NA,NA,NA,NA
+"96","Mexico","Higher Education Institutions ","Public",0.8,0.8,0.9,1,1,0.9
+"97","Netherlands","Higher Education Institutions ","Public",1.1,1,1,1.2,1.3,1.3
+"98","New Zealand","Higher Education Institutions ","Public",1.1,0.9,0.9,1.1,1,1
+"99","Norway","Higher Education Institutions ","Public",1.5,1.2,1.3,1.3,1.6,1.6
+"100","Poland","Higher Education Institutions ","Public",0.8,0.8,1.2,1.1,1,1
+"101","Portugal","Higher Education Institutions ","Public",1,1,0.9,1,1,1
+"102","Slovak Republic","Higher Education Institutions ","Public",NA,0.7,0.7,0.7,0.7,0.8
+"103","Slovenia","Higher Education Institutions ","Public",NA,NA,1,1.1,1.1,1.1
+"104","Spain","Higher Education Institutions ","Public",0.8,0.9,0.9,1.1,1.1,1
+"105","Sweden","Higher Education Institutions ","Public",1.6,1.5,1.5,1.6,1.6,1.6
+"106","Switzerland","Higher Education Institutions ","Public",1.1,1.2,1.4,1.4,1.3,1.3
+"107","Turkey","Higher Education Institutions ","Public",0.8,1,NA,NA,NA,NA
+"108","United Kingdom","Higher Education Institutions ","Public",0.7,0.7,0.9,0.6,0.7,0.9
+"109","United States","Higher Education Institutions ","Public",1.1,0.8,1,1.1,1,0.9
+"110","  Brazil","Higher Education Institutions ","Public",NA,NA,0.8,0.8,0.9,0.9
+"111","  Russian Federation","Higher Education Institutions ","Public",0.7,0.5,0.8,1.2,1,0.9
+"112","OECD Average","All Institutions ","Private",NA,NA,NA,NA,NA,0.9
+"113","Australia","All Institutions ","Private",NA,NA,NA,NA,NA,1.5
+"114","Austria","All Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"115","Belgium","All Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"116","Canada","All Institutions ","Private",NA,NA,NA,NA,NA,NA
+"117","Chile","All Institutions ","Private",NA,NA,NA,NA,NA,2.5
+"118","Czech Republic","All Institutions ","Private",NA,NA,NA,NA,NA,0.6
+"119","Denmark","All Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"120","Estonia","All Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"121","Finland","All Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"122","France","All Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"123","Germany","All Institutions ","Private",NA,NA,NA,NA,NA,0.7
+"124","Greece","All Institutions ","Private",NA,NA,NA,NA,NA,NA
+"125","Hungary","All Institutions ","Private",NA,NA,NA,NA,NA,NA
+"126","Iceland","All Institutions ","Private",NA,NA,NA,NA,NA,0.7
+"127","Ireland","All Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"128","Israel","All Institutions ","Private",NA,NA,NA,NA,NA,1.7
+"129","Italy","All Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"130","Japan","All Institutions ","Private",NA,NA,NA,NA,NA,1.6
+"131","Korea, Republic of","All Institutions ","Private",NA,NA,NA,NA,NA,2.8
+"132","Luxembourg","All Institutions ","Private",NA,NA,NA,NA,NA,NA
+"133","Mexico","All Institutions ","Private",NA,NA,NA,NA,NA,1.1
+"134","Netherlands","All Institutions ","Private",NA,NA,NA,NA,NA,0.9
+"135","New Zealand","All Institutions ","Private",NA,NA,NA,NA,NA,1.2
+"136","Norway","All Institutions ","Private",NA,NA,NA,NA,NA,NA
+"137","Poland","All Institutions ","Private",NA,NA,NA,NA,NA,0.7
+"138","Portugal","All Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"139","Slovak Republic","All Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"140","Slovenia","All Institutions ","Private",NA,NA,NA,NA,NA,0.7
+"141","Spain","All Institutions ","Private",NA,NA,NA,NA,NA,0.8
+"142","Sweden","All Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"143","Switzerland","All Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"144","Turkey","All Institutions ","Private",NA,NA,NA,NA,NA,NA
+"145","United Kingdom","All Institutions ","Private",NA,NA,NA,NA,NA,0.8
+"146","United States","All Institutions ","Private",NA,NA,NA,NA,NA,2.2
+"147","  Brazil","All Institutions ","Private",NA,NA,NA,NA,NA,NA
+"148","  Russian Federation","All Institutions ","Private",NA,NA,NA,NA,NA,0.7
+"149","OECD Average","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"150","Australia","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.6
+"151","Austria","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"152","Belgium","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"153","Canada","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,NA
+"154","Chile","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.7
+"155","Czech Republic","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"156","Denmark","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"157","Estonia","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0
+"158","Finland","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0
+"159","France","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"160","Germany","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"161","Greece","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,NA
+"162","Hungary","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,NA
+"163","Iceland","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"164","Ireland","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"165","Israel","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"166","Italy","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"167","Japan","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"168","Korea, Republic of","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.8
+"169","Luxembourg","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"170","Mexico","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.6
+"171","Netherlands","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"172","New Zealand","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.6
+"173","Norway","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,NA
+"174","Poland","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"175","Portugal","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0
+"176","Slovak Republic","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"177","Slovenia","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"178","Spain","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"179","Sweden","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0
+"180","Switzerland","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"181","Turkey","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,NA
+"182","United Kingdom","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"183","United States","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"184","  Brazil","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,NA
+"185","  Russian Federation","Elementary and Secondary Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"186","OECD Average","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"187","Australia","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.9
+"188","Austria","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"189","Belgium","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"190","Canada","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,NA
+"191","Chile","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,1.7
+"192","Czech Republic","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"193","Denmark","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"194","Estonia","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"195","Finland","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"196","France","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"197","Germany","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"198","Greece","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,NA
+"199","Hungary","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,NA
+"200","Iceland","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"201","Ireland","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"202","Israel","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.8
+"203","Italy","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"204","Japan","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,1
+"205","Korea, Republic of","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,1.9
+"206","Luxembourg","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,NA
+"207","Mexico","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"208","Netherlands","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"209","New Zealand","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"210","Norway","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.1
+"211","Poland","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"212","Portugal","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.4
+"213","Slovak Republic","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"214","Slovenia","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"215","Spain","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"216","Sweden","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.2
+"217","Switzerland","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,NA
+"218","Turkey","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,NA
+"219","United Kingdom","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.3
+"220","United States","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,1.8
+"221","  Brazil","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,NA
+"222","  Russian Federation","Higher Education Institutions ","Private",NA,NA,NA,NA,NA,0.5
+"223","OECD Average","All Institutions ","Total",NA,NA,NA,NA,NA,6.1
+"224","Australia","All Institutions ","Total",NA,NA,NA,NA,NA,5.8
+"225","Austria","All Institutions ","Total",NA,NA,NA,NA,NA,5.7
+"226","Belgium","All Institutions ","Total",NA,NA,NA,NA,NA,6.6
+"227","Canada","All Institutions ","Total",NA,NA,NA,NA,NA,NA
+"228","Chile","All Institutions ","Total",NA,NA,NA,NA,NA,6.4
+"229","Czech Republic","All Institutions ","Total",NA,NA,NA,NA,NA,5
+"230","Denmark","All Institutions ","Total",NA,NA,NA,NA,NA,7.9
+"231","Estonia","All Institutions ","Total",NA,NA,NA,NA,NA,5.5
+"232","Finland","All Institutions ","Total",NA,NA,NA,NA,NA,6.5
+"233","France","All Institutions ","Total",NA,NA,NA,NA,NA,6.1
+"234","Germany","All Institutions ","Total",NA,NA,NA,NA,NA,5.1
+"235","Greece","All Institutions ","Total",NA,NA,NA,NA,NA,NA
+"236","Hungary","All Institutions ","Total",NA,NA,NA,NA,NA,NA
+"237","Iceland","All Institutions ","Total",NA,NA,NA,NA,NA,7.7
+"238","Ireland","All Institutions ","Total",NA,NA,NA,NA,NA,6.2
+"239","Israel","All Institutions ","Total",NA,NA,NA,NA,NA,7.3
+"240","Italy","All Institutions ","Total",NA,NA,NA,NA,NA,4.6
+"241","Japan","All Institutions ","Total",NA,NA,NA,NA,NA,5.1
+"242","Korea, Republic of","All Institutions ","Total",NA,NA,NA,NA,NA,7.6
+"243","Luxembourg","All Institutions ","Total",NA,NA,NA,NA,NA,NA
+"244","Mexico","All Institutions ","Total",NA,NA,NA,NA,NA,6.2
+"245","Netherlands","All Institutions ","Total",NA,NA,NA,NA,NA,6.2
+"246","New Zealand","All Institutions ","Total",NA,NA,NA,NA,NA,7.5
+"247","Norway","All Institutions ","Total",NA,NA,NA,NA,NA,NA
+"248","Poland","All Institutions ","Total",NA,NA,NA,NA,NA,5.5
+"249","Portugal","All Institutions ","Total",NA,NA,NA,NA,NA,5.5
+"250","Slovak Republic","All Institutions ","Total",NA,NA,NA,NA,NA,4.4
+"251","Slovenia","All Institutions ","Total",NA,NA,NA,NA,NA,5.9
+"252","Spain","All Institutions ","Total",NA,NA,NA,NA,NA,5.5
+"253","Sweden","All Institutions ","Total",NA,NA,NA,NA,NA,6.3
+"254","Switzerland","All Institutions ","Total",NA,NA,NA,NA,NA,5.6
+"255","Turkey","All Institutions ","Total",NA,NA,NA,NA,NA,NA
+"256","United Kingdom","All Institutions ","Total",NA,NA,NA,NA,NA,6.4
+"257","United States","All Institutions ","Total",NA,NA,NA,NA,NA,6.9
+"258","  Brazil","All Institutions ","Total",NA,NA,NA,NA,NA,NA
+"259","  Russian Federation","All Institutions ","Total",NA,NA,NA,NA,NA,4.6
+"260","OECD Average","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.8
+"261","Australia","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.1
+"262","Austria","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.6
+"263","Belgium","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.4
+"264","Canada","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,NA
+"265","Chile","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.4
+"266","Czech Republic","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,2.9
+"267","Denmark","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.4
+"268","Estonia","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.4
+"269","Finland","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.1
+"270","France","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.9
+"271","Germany","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.1
+"272","Greece","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,NA
+"273","Hungary","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,NA
+"274","Iceland","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.9
+"275","Ireland","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.6
+"276","Israel","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.2
+"277","Italy","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.1
+"278","Japan","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,2.9
+"279","Korea, Republic of","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.1
+"280","Luxembourg","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.4
+"281","Mexico","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4
+"282","Netherlands","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4
+"283","New Zealand","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,5.4
+"284","Norway","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,NA
+"285","Poland","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.4
+"286","Portugal","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.7
+"287","Slovak Republic","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,2.8
+"288","Slovenia","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.8
+"289","Spain","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.2
+"290","Sweden","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.9
+"291","Switzerland","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4
+"292","Turkey","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,NA
+"293","United Kingdom","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,4.7
+"294","United States","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,3.7
+"295","  Brazil","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,NA
+"296","  Russian Federation","Elementary and Secondary Institutions ","Total",NA,NA,NA,NA,NA,2.1
+"297","OECD Average","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.6
+"298","Australia","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.6
+"299","Austria","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.5
+"300","Belgium","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.4
+"301","Canada","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,NA
+"302","Chile","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,2.4
+"303","Czech Republic","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.4
+"304","Denmark","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.9
+"305","Estonia","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.7
+"306","Finland","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.9
+"307","France","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.5
+"308","Germany","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.3
+"309","Greece","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,NA
+"310","Hungary","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,NA
+"311","Iceland","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.2
+"312","Ireland","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.5
+"313","Israel","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.7
+"314","Italy","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1
+"315","Japan","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.6
+"316","Korea, Republic of","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,2.6
+"317","Luxembourg","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,NA
+"318","Mexico","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.3
+"319","Netherlands","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.8
+"320","New Zealand","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.5
+"321","Norway","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.7
+"322","Poland","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.3
+"323","Portugal","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.4
+"324","Slovak Republic","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1
+"325","Slovenia","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.3
+"326","Spain","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.3
+"327","Sweden","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.7
+"328","Switzerland","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,NA
+"329","Turkey","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,NA
+"330","United Kingdom","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.2
+"331","United States","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,2.7
+"332","  Brazil","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,NA
+"333","  Russian Federation","Higher Education Institutions ","Total",NA,NA,NA,NA,NA,1.4

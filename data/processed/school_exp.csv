@@ -1,0 +1,223 @@
+"","country","institute_type","direct_expenditure_type","total_exp"
+"1","  Brazil","All Institutions ","Private",0
+"2","  Brazil","All Institutions ","Public",3.56666666666667
+"3","  Brazil","Elementary and Secondary Institutions ","Private",0
+"4","  Brazil","Elementary and Secondary Institutions ","Public",2.71666666666667
+"5","  Brazil","Higher Education Institutions ","Private",0
+"6","  Brazil","Higher Education Institutions ","Public",0.566666666666667
+"7","  Russian Federation","All Institutions ","Private",0.116666666666667
+"8","  Russian Federation","All Institutions ","Public",3.81666666666667
+"9","  Russian Federation","Elementary and Secondary Institutions ","Private",0.0166666666666667
+"10","  Russian Federation","Elementary and Secondary Institutions ","Public",1.96666666666667
+"11","  Russian Federation","Higher Education Institutions ","Private",0.0833333333333333
+"12","  Russian Federation","Higher Education Institutions ","Public",0.85
+"13","Australia","All Institutions ","Private",0.25
+"14","Australia","All Institutions ","Public",4.46666666666667
+"15","Australia","Elementary and Secondary Institutions ","Private",0.1
+"16","Australia","Elementary and Secondary Institutions ","Public",3.51666666666667
+"17","Australia","Higher Education Institutions ","Private",0.15
+"18","Australia","Higher Education Institutions ","Public",0.833333333333333
+"19","Austria","All Institutions ","Private",0.0333333333333333
+"20","Austria","All Institutions ","Public",5.45
+"21","Austria","Elementary and Secondary Institutions ","Private",0.0166666666666667
+"22","Austria","Elementary and Secondary Institutions ","Public",3.63333333333333
+"23","Austria","Higher Education Institutions ","Private",0.0166666666666667
+"24","Austria","Higher Education Institutions ","Public",1.26666666666667
+"25","Belgium","All Institutions ","Private",0.0333333333333333
+"26","Belgium","All Institutions ","Public",5.85
+"27","Belgium","Elementary and Secondary Institutions ","Private",0.0166666666666667
+"28","Belgium","Elementary and Secondary Institutions ","Public",3.93333333333333
+"29","Belgium","Higher Education Institutions ","Private",0.0166666666666667
+"30","Belgium","Higher Education Institutions ","Public",1.23333333333333
+"31","Canada","All Institutions ","Private",0
+"32","Canada","All Institutions ","Public",4.33333333333333
+"33","Canada","Elementary and Secondary Institutions ","Private",0
+"34","Canada","Elementary and Secondary Institutions ","Public",2.93333333333333
+"35","Canada","Higher Education Institutions ","Private",0
+"36","Canada","Higher Education Institutions ","Public",1.28333333333333
+"37","Chile","All Institutions ","Private",0.416666666666667
+"38","Chile","All Institutions ","Public",3.3
+"39","Chile","Elementary and Secondary Institutions ","Private",0.116666666666667
+"40","Chile","Elementary and Secondary Institutions ","Public",2.46666666666667
+"41","Chile","Higher Education Institutions ","Private",0.283333333333333
+"42","Chile","Higher Education Institutions ","Public",0.45
+"43","Czech Republic","All Institutions ","Private",0.1
+"44","Czech Republic","All Institutions ","Public",4.3
+"45","Czech Republic","Elementary and Secondary Institutions ","Private",0.05
+"46","Czech Republic","Elementary and Secondary Institutions ","Public",2.78333333333333
+"47","Czech Republic","Higher Education Institutions ","Private",0.05
+"48","Czech Republic","Higher Education Institutions ","Public",0.916666666666667
+"49","Denmark","All Institutions ","Private",0.0666666666666667
+"50","Denmark","All Institutions ","Public",7.05
+"51","Denmark","Elementary and Secondary Institutions ","Private",0.0166666666666667
+"52","Denmark","Elementary and Secondary Institutions ","Public",4.4
+"53","Denmark","Higher Education Institutions ","Private",0.0166666666666667
+"54","Denmark","Higher Education Institutions ","Public",1.63333333333333
+"55","Estonia","All Institutions ","Private",0.05
+"56","Estonia","All Institutions ","Public",3.56666666666667
+"57","Estonia","Elementary and Secondary Institutions ","Private",0
+"58","Estonia","Elementary and Secondary Institutions ","Public",2.46666666666667
+"59","Estonia","Higher Education Institutions ","Private",0.05
+"60","Estonia","Higher Education Institutions ","Public",0.816666666666667
+"61","Finland","All Institutions ","Private",0.0166666666666667
+"62","Finland","All Institutions ","Public",6.16666666666667
+"63","Finland","Elementary and Secondary Institutions ","Private",0
+"64","Finland","Elementary and Secondary Institutions ","Public",3.96666666666667
+"65","Finland","Higher Education Institutions ","Private",0.0166666666666667
+"66","Finland","Higher Education Institutions ","Public",1.78333333333333
+"67","France","All Institutions ","Private",0.0833333333333333
+"68","France","All Institutions ","Public",5.71666666666667
+"69","France","Elementary and Secondary Institutions ","Private",0.05
+"70","France","Elementary and Secondary Institutions ","Public",3.86666666666667
+"71","France","Higher Education Institutions ","Private",0.0333333333333333
+"72","France","Higher Education Institutions ","Public",1.16666666666667
+"73","Germany","All Institutions ","Private",0.116666666666667
+"74","Germany","All Institutions ","Public",3.65
+"75","Germany","Elementary and Secondary Institutions ","Private",0.0666666666666667
+"76","Germany","Elementary and Secondary Institutions ","Public",2.38333333333333
+"77","Germany","Higher Education Institutions ","Private",0.0333333333333333
+"78","Germany","Higher Education Institutions ","Public",0.85
+"79","Greece","All Institutions ","Private",0
+"80","Greece","All Institutions ","Public",1.9
+"81","Greece","Elementary and Secondary Institutions ","Private",0
+"82","Greece","Elementary and Secondary Institutions ","Public",1.33333333333333
+"83","Greece","Higher Education Institutions ","Private",0
+"84","Greece","Higher Education Institutions ","Public",0.516666666666667
+"85","Hungary","All Institutions ","Private",0
+"86","Hungary","All Institutions ","Public",4.7
+"87","Hungary","Elementary and Secondary Institutions ","Private",0
+"88","Hungary","Elementary and Secondary Institutions ","Public",2.96666666666667
+"89","Hungary","Higher Education Institutions ","Private",0
+"90","Hungary","Higher Education Institutions ","Public",0.9
+"91","Iceland","All Institutions ","Private",0.116666666666667
+"92","Iceland","All Institutions ","Public",6.43333333333333
+"93","Iceland","Elementary and Secondary Institutions ","Private",0.0333333333333333
+"94","Iceland","Elementary and Secondary Institutions ","Public",4.6
+"95","Iceland","Higher Education Institutions ","Private",0.0166666666666667
+"96","Iceland","Higher Education Institutions ","Public",1
+"97","Ireland","All Institutions ","Private",0.0833333333333333
+"98","Ireland","All Institutions ","Public",5.13333333333333
+"99","Ireland","Elementary and Secondary Institutions ","Private",0.0333333333333333
+"100","Ireland","Elementary and Secondary Institutions ","Public",3.85
+"101","Ireland","Higher Education Institutions ","Private",0.05
+"102","Ireland","Higher Education Institutions ","Public",1.16666666666667
+"103","Israel","All Institutions ","Private",0.283333333333333
+"104","Israel","All Institutions ","Public",5.01666666666667
+"105","Israel","Elementary and Secondary Institutions ","Private",0.0666666666666667
+"106","Israel","Elementary and Secondary Institutions ","Public",3.38333333333333
+"107","Israel","Higher Education Institutions ","Private",0.133333333333333
+"108","Israel","Higher Education Institutions ","Public",0.833333333333333
+"109","Italy","All Institutions ","Private",0.0666666666666667
+"110","Italy","All Institutions ","Public",4.38333333333333
+"111","Italy","Elementary and Secondary Institutions ","Private",0.0166666666666667
+"112","Italy","Elementary and Secondary Institutions ","Public",3.16666666666667
+"113","Italy","Higher Education Institutions ","Private",0.0333333333333333
+"114","Italy","Higher Education Institutions ","Public",0.733333333333333
+"115","Japan","All Institutions ","Private",0.266666666666667
+"116","Japan","All Institutions ","Public",3.55
+"117","Japan","Elementary and Secondary Institutions ","Private",0.0333333333333333
+"118","Japan","Elementary and Secondary Institutions ","Public",2.71666666666667
+"119","Japan","Higher Education Institutions ","Private",0.166666666666667
+"120","Japan","Higher Education Institutions ","Public",0.483333333333333
+"121","Korea, Republic of","All Institutions ","Private",0.466666666666667
+"122","Korea, Republic of","All Institutions ","Public",4.46666666666667
+"123","Korea, Republic of","Elementary and Secondary Institutions ","Private",0.133333333333333
+"124","Korea, Republic of","Elementary and Secondary Institutions ","Public",3.35
+"125","Korea, Republic of","Higher Education Institutions ","Private",0.316666666666667
+"126","Korea, Republic of","Higher Education Institutions ","Public",0.6
+"127","Luxembourg","All Institutions ","Private",0
+"128","Luxembourg","All Institutions ","Public",0.716666666666667
+"129","Luxembourg","Elementary and Secondary Institutions ","Private",0.0166666666666667
+"130","Luxembourg","Elementary and Secondary Institutions ","Public",2.96666666666667
+"131","Luxembourg","Higher Education Institutions ","Private",0
+"132","Luxembourg","Higher Education Institutions ","Public",0.0166666666666667
+"133","Mexico","All Institutions ","Private",0.183333333333333
+"134","Mexico","All Institutions ","Public",4.95
+"135","Mexico","Elementary and Secondary Institutions ","Private",0.1
+"136","Mexico","Elementary and Secondary Institutions ","Public",3.4
+"137","Mexico","Higher Education Institutions ","Private",0.0666666666666667
+"138","Mexico","Higher Education Institutions ","Public",0.9
+"139","Netherlands","All Institutions ","Private",0.15
+"140","Netherlands","All Institutions ","Public",4.91666666666667
+"141","Netherlands","Elementary and Secondary Institutions ","Private",0.0666666666666667
+"142","Netherlands","Elementary and Secondary Institutions ","Public",3.38333333333333
+"143","Netherlands","Higher Education Institutions ","Private",0.0833333333333333
+"144","Netherlands","Higher Education Institutions ","Public",1.15
+"145","New Zealand","All Institutions ","Private",0.2
+"146","New Zealand","All Institutions ","Public",5.78333333333333
+"147","New Zealand","Elementary and Secondary Institutions ","Private",0.1
+"148","New Zealand","Elementary and Secondary Institutions ","Public",4.35
+"149","New Zealand","Higher Education Institutions ","Private",0.0833333333333333
+"150","New Zealand","Higher Education Institutions ","Public",1
+"151","Norway","All Institutions ","Private",0
+"152","Norway","All Institutions ","Public",6.53333333333333
+"153","Norway","Elementary and Secondary Institutions ","Private",0
+"154","Norway","Elementary and Secondary Institutions ","Public",4.28333333333333
+"155","Norway","Higher Education Institutions ","Private",0.0166666666666667
+"156","Norway","Higher Education Institutions ","Public",1.41666666666667
+"157","OECD Average","All Institutions ","Private",0.15
+"158","OECD Average","All Institutions ","Public",5.15
+"159","OECD Average","Elementary and Secondary Institutions ","Private",0.05
+"160","OECD Average","Elementary and Secondary Institutions ","Public",3.56666666666667
+"161","OECD Average","Higher Education Institutions ","Private",0.0833333333333333
+"162","OECD Average","Higher Education Institutions ","Public",1.03333333333333
+"163","Poland","All Institutions ","Private",0.116666666666667
+"164","Poland","All Institutions ","Public",5.1
+"165","Poland","Elementary and Secondary Institutions ","Private",0.0333333333333333
+"166","Poland","Elementary and Secondary Institutions ","Public",3.46666666666667
+"167","Poland","Higher Education Institutions ","Private",0.05
+"168","Poland","Higher Education Institutions ","Public",0.983333333333333
+"169","Portugal","All Institutions ","Private",0.0666666666666667
+"170","Portugal","All Institutions ","Public",5.38333333333333
+"171","Portugal","Elementary and Secondary Institutions ","Private",0
+"172","Portugal","Elementary and Secondary Institutions ","Public",3.93333333333333
+"173","Portugal","Higher Education Institutions ","Private",0.0666666666666667
+"174","Portugal","Higher Education Institutions ","Public",0.983333333333333
+"175","Slovak Republic","All Institutions ","Private",0.0833333333333333
+"176","Slovak Republic","All Institutions ","Public",4.03333333333333
+"177","Slovak Republic","Elementary and Secondary Institutions ","Private",0.05
+"178","Slovak Republic","Elementary and Secondary Institutions ","Public",2.2
+"179","Slovak Republic","Higher Education Institutions ","Private",0.0333333333333333
+"180","Slovak Republic","Higher Education Institutions ","Public",0.6
+"181","Slovenia","All Institutions ","Private",0.116666666666667
+"182","Slovenia","All Institutions ","Public",3.51666666666667
+"183","Slovenia","Elementary and Secondary Institutions ","Private",0.05
+"184","Slovenia","Elementary and Secondary Institutions ","Public",2.43333333333333
+"185","Slovenia","Higher Education Institutions ","Private",0.0333333333333333
+"186","Slovenia","Higher Education Institutions ","Public",0.716666666666667
+"187","Spain","All Institutions ","Private",0.133333333333333
+"188","Spain","All Institutions ","Public",4.6
+"189","Spain","Elementary and Secondary Institutions ","Private",0.05
+"190","Spain","Elementary and Secondary Institutions ","Public",3.05
+"191","Spain","Higher Education Institutions ","Private",0.05
+"192","Spain","Higher Education Institutions ","Public",0.966666666666667
+"193","Sweden","All Institutions ","Private",0.0333333333333333
+"194","Sweden","All Institutions ","Public",6.36666666666667
+"195","Sweden","Elementary and Secondary Institutions ","Private",0
+"196","Sweden","Elementary and Secondary Institutions ","Public",4.18333333333333
+"197","Sweden","Higher Education Institutions ","Private",0.0333333333333333
+"198","Sweden","Higher Education Institutions ","Public",1.56666666666667
+"199","Switzerland","All Institutions ","Private",0.0666666666666667
+"200","Switzerland","All Institutions ","Public",5.38333333333333
+"201","Switzerland","Elementary and Secondary Institutions ","Private",0.0833333333333333
+"202","Switzerland","Elementary and Secondary Institutions ","Public",3.8
+"203","Switzerland","Higher Education Institutions ","Private",0
+"204","Switzerland","Higher Education Institutions ","Public",1.28333333333333
+"205","Turkey","All Institutions ","Private",0
+"206","Turkey","All Institutions ","Public",0.933333333333333
+"207","Turkey","Elementary and Secondary Institutions ","Private",0
+"208","Turkey","Elementary and Secondary Institutions ","Public",1.05
+"209","Turkey","Higher Education Institutions ","Private",0
+"210","Turkey","Higher Education Institutions ","Public",0.3
+"211","United Kingdom","All Institutions ","Private",0.133333333333333
+"212","United Kingdom","All Institutions ","Public",5.15
+"213","United Kingdom","Elementary and Secondary Institutions ","Private",0.0666666666666667
+"214","United Kingdom","Elementary and Secondary Institutions ","Public",4.11666666666667
+"215","United Kingdom","Higher Education Institutions ","Private",0.05
+"216","United Kingdom","Higher Education Institutions ","Public",0.75
+"217","United States","All Institutions ","Private",0.366666666666667
+"218","United States","All Institutions ","Public",4.93333333333333
+"219","United States","Elementary and Secondary Institutions ","Private",0.05
+"220","United States","Elementary and Secondary Institutions ","Public",3.58333333333333
+"221","United States","Higher Education Institutions ","Private",0.3
+"222","United States","Higher Education Institutions ","Public",0.983333333333333
