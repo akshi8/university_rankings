@@ -4,7 +4,7 @@
 
 ## Author : Akshi Chaudhary
 ## Date: December 2017
-## usage: bash run_all.sh
+## usage: bash Makefile.sh
 
 
 
