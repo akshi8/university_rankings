@@ -1,4 +1,3 @@
-
 #! /usr/bin/env Rscript 
 # Akshi Chaudhary, December 9, 2017
 #
@@ -28,12 +27,16 @@ main <- function(){
   school_exp <- read.csv(input_file2)
 
 ## plot1 of public expenditure
-  plot1 <- school_exp %>% ggplot(aes(direct_expenditure_type,log(total_exp * 10^6))) + geom_boxplot(aes(color = institute_type)) 
-  + labs(title = 'Expenditure by countries based on Institute type', y = 'expenditure in billion dollars', x = "Expenditure in millions dollars") 
-  + theme(axis.text=element_text(size=8),axis.title=element_text(size=10,face="bold" )) 
-  + theme_bw() 
-  + theme(legend.position = "bottom") 
-  + scale_color_discrete("Institute Type:")
+  plot1 <- school_exp %>% ggplot(aes(direct_expenditure_type,log(total_exp * 10^6))) + 
+    geom_boxplot(aes(color = institute_type)) + 
+    labs(title = 'Expenditure by countries based on Institute type', 
+         y = 'expenditure in billion dollars', 
+         x = "Expenditure in millions dollars") + 
+    theme(axis.text=element_text(size=8),
+          axis.title=element_text(size=10,face="bold")) +
+    theme_bw() +
+    theme(legend.position = "bottom") +
+    scale_color_discrete("Institute Type:")
   
   
   # saving figure to png    
@@ -45,9 +48,17 @@ main <- function(){
         
 ## plot2 of Institute ranking
     
-  plot2 <- country_score %>% top_n(20) %>% arrange(desc(best_score)) %>% ggplot(aes(x = best_score, y = country)) + geom_point(color ='blue') 
-  + labs(title = 'Country education score based on institition rankings', x = 'Education Score', y ='Country')
-  + theme(axis.text=element_text(size=8,axis.title=element_text(size=14,face="bold"))) + theme_bw()
+  plot2 <- country_score %>% 
+    top_n(20) %>% 
+    arrange(desc(best_score)) %>% 
+    ggplot(aes(x = best_score, y = country)) + 
+    geom_point(color ='blue') +
+    labs(title = 'Country education score based on institition rankings', 
+         x = 'Education Score', 
+         y ='Country') +
+    theme(axis.text=element_text(size=8),
+          axis.title=element_text(size=14,face="bold")) + 
+    theme_bw()
   
   # 2. Save the plot to a file
   png(figure2)
