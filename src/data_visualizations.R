@@ -9,35 +9,34 @@
 # Second: a path/filename to write the summarized dataset 
 
 # Import libraries and packages
-options(warn=-1)
-suppressMessages(library(tidyverse))
-suppressMessages(library(dplyr))
-suppressMessages(library(ggplot2))
-suppressMessages(library(forcats))
-suppressMessages(library(ggsave))
+
 
 args <- commandArgs(trailingOnly = TRUE)
-input_file <- args[1]
-figure1 <- arg[2]
-figure2 <- args[3]
+input_file1 <- args[1]
+input_file2 <- args[2]
+figure1 <- args[3]
+figure2 <- args[4]
 
 # read from raw data file
 main <- function(){
+  
+  library(dplyr)
+  library(ggplot2)
  
 ## reading summarized data 
-  combined <- read.csv(input_file)
+  country_score <- read.csv(input_file1)
+  school_exp <- read.csv(input_file2)
 
 ## plot1 of public expenditure
-  plot1 <- combined %>% filter(direct_expenditure_type == 'Public') %>% 
-    ggplot(aes(total_exp,fill = institute_type )) + 
-    geom_density( aes(y = ..count..)) + labs(title = 'Expenditure by countries based on Public Institute type', x = 'expenditure in billion dollars') + 
-    theme(axis.text=element_text(size=8),axis.title=element_text(size=10,face="bold" )) + theme_bw() 
+  plot1 <- school_exp %>% ggplot(aes(direct_expenditure_type,log(total_exp * 10^6))) + geom_boxplot(aes(color = institute_type)) 
+  + labs(title = 'Expenditure by countries based on Institute type', y = 'expenditure in billion dollars', x = "Expenditure in millions dollars") 
+  + theme(axis.text=element_text(size=8),axis.title=element_text(size=10,face="bold" )) 
+  + theme_bw() 
+  + theme(legend.position = "bottom") 
+  + scale_color_discrete("Institute Type:")
   
   
-    country_score <- combined %>% select(country,best_score, direct_expenditure_type) %>% filter(direct_expenditure_type == "Public") %>% group_by(direct_expenditure_type,country) %>% summarise(score = mean(as.numeric(best_score))) %>% filter(score !='')
-  
-    country_score$country <- factor(country_score$country , levels = country_score$country [order(country_score$score)])
-## saving figure to png    
+  # saving figure to png    
     png(figure1)
     print(plot1)
     dev.off()
@@ -46,12 +45,13 @@ main <- function(){
         
 ## plot2 of Institute ranking
     
-  plot2 <- country_score %>% top_n(20) %>% arrange(desc(score)) %>% ggplot(aes(x = score, y = country)) + geom_point(color ='blue') +
-    labs(title = 'Country education score based on institition rankings', x = 'Education Score', y ='Country') + theme(axis.text=element_text(size=8),                                                                                                                                                                                                                                           axis.title=element_text(size=14,face="bold")) +theme_bw()
+  plot2 <- country_score %>% top_n(20) %>% arrange(desc(best_score)) %>% ggplot(aes(x = best_score, y = country)) + geom_point(color ='blue') 
+  + labs(title = 'Country education score based on institition rankings', x = 'Education Score', y ='Country')
+  + theme(axis.text=element_text(size=8,axis.title=element_text(size=14,face="bold"))) + theme_bw()
   
   # 2. Save the plot to a file
-  png(figure1)
-  print(plot1)
+  png(figure2)
+  print(plot2)
   dev.off()
 
 }
