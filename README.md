@@ -80,7 +80,7 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
 * Running the following to clean directories and rebuild everything [Run_all.sh](https://github.com/akshi8/University_rankings/blob/master/src)
 
-      bash MakeClean.sh
+      
       bash Run_all.sh
 
 >  The Run_all.sh will do the following things:
@@ -101,23 +101,27 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 4. Knit R markdown file with linear model results and hypothesis testing using the [Initial_analysis_Report.Rmd](https://github.com/akshi8/University_rankings/blob/master/reports/Initial_analysis_Report.rmd)
     - save linear model figure to results [Education_score_Vs_Expenditure](https://github.com/akshi8/University_rankings/blob/master/results/Education_score_Vs_Expenditure.png)
 
+* Clean the directories after the analysis using the MakeClean.sh
+
+      bash MakeClean.sh
+      
 > Here is the data workflow diagram  for a quick look
 ![data_dependencies](from_team/data_dependency.PNG)
 
 
-### Method 2: Docker Images
+### Method 2: Docker 
 
-> Docker installation required
+> **Docker installation is required**
 
 * In the git-bash/ command line / Powershell type the following to pull the docker image from docker hub
 
       docker pull akshi8/university_rankings
 
 * Run the Docker image and link it to your local university_rankings repo
-* Enter complete local directory path
+* Enter `complete local directory path`
 
       docker run -it --rm -v c/.../local_directory_of_university_ranking/:/university_rankings akshi8/university_rankings:latest
-* You will enter the root of the docker image
+* You will enter the `root` of the docker image
 * First clean existing datasets
 * Then run the analysis
 
@@ -128,7 +132,7 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
   
         bash MakeClean.sh
       
->The docker image for this project looks like this: ![akshi8/university_rankings](from_team/Docker_image.PNG)
+> The docker image for this project looks like this: ![akshi8/university_rankings](from_team/Docker_image.PNG)
 
 ## Analysis reports
 
