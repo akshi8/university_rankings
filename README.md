@@ -123,6 +123,7 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
       sh MakeClean.sh
       sh Run_all.sh
+>The docker image for this project looks like this: ![akshi8/university_rankings](from_team/Docker_image.PNG)
 
 ## Analysis reports
 
