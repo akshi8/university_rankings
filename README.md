@@ -51,7 +51,7 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
 ## Analysis Plan
 
-* Create a driver script (**makefile**) for running the following crucial analysis steps
+* Create a driver script (**makefile/ Run_all**) for running the following crucial analysis steps
 
   - data download [data_download.R](https://github.com/akshi8/University_rankings/blob/master/src/data_download.R)
   - data cleaning and summary [data_summary.R](https://github.com/akshi8/University_rankings/blob/master/src/data_summary.R)
@@ -64,7 +64,7 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
 ## Script Usage
 
-### Method 1 : Makefile and `git clone`
+### Method 1 : Makefile (Run_all) and `git clone`
 
 > Clone this github repo by using the git clone command
 
@@ -72,17 +72,18 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
 * This will a local copy of this repository
 
-> Run all using Makefile.sh
+> Run all using Run_all.sh
 
 * Make this project as your root directory
 
         cd university_rankings
 
-* Running the [makefile.sh](https://github.com/akshi8/University_rankings/blob/master/src/Makefile.sh)
+* Running the following to clean directories and rebuild everything [Run_all.sh](https://github.com/akshi8/University_rankings/blob/master/src)
 
-      bash Makefile.sh
+      bash MakeClean.sh
+      bash Run_all.sh
 
->  The Makefile will do the following things:
+>  The Run_all.sh will do the following things:
 
 1. Download data from `external` data into `raw` data repo of using the [data_download.R](https://github.com/akshi8/University_rankings/blob/master/src/data_download.R) script
 
