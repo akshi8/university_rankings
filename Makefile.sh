@@ -27,3 +27,12 @@ Rscript src/data_visualizations.R data/processed/rank.csv data/processed/school_
 #Run scripts for creating the report
 
 Rscript -e 'ezknitr::ezknit("src/Initial_analysis_Report.Rmd", out_dir="reports")'
+
+
+#Clean all newly created files
+
+rm -f data/processed/*.csv
+rm -f data/raw/*.csv
+rm -f results/figures/*.png
+rm -f reports/*.html
+rm -f reports/*.md
