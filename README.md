@@ -64,6 +64,20 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
 ## Script Usage
 
+### Method 1 : Makefile and `git clone`
+
+> Clone this github repo by using the git clone command
+
+        git clone https://github.com/akshi8/university_rankings.git
+
+* This will a local copy of this repository
+
+> Run all using Makefile.sh
+
+* Make this project as your root directory
+
+        cd university_rankings
+
 * Running the [makefile.sh](https://github.com/akshi8/University_rankings/blob/master/src/Makefile.sh)
 
       bash Makefile.sh
@@ -88,6 +102,26 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
 
 > Here is the data workflow diagram  for a quick look
 ![data_dependencies](from_team/data_dependency.PNG)
+
+
+### Method 2: Docker Images
+
+> Docker installation required
+
+* In the git-bash/ command line / Powershell type the following to pull the docker image from docker hub
+
+      docker pull akshi8/university_rankings
+
+* Run the Docker image and link it to your local university_rankings repo
+* Enter complete local directory path
+
+      docker run -it --rm -v c/.../local_directory_of_university_ranking/:/university_rankings akshi8/university_rankings:latest
+* You will enter the root of the docker image
+* First clean existing datasets
+* Then run the analysis
+
+      sh MakeClean.sh
+      sh Run_all.sh
 
 ## Analysis reports
 
