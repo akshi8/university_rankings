@@ -125,7 +125,8 @@ For a preliminary analysis, I will start with one question and hypothesize aroun
       bash Run_all.sh
  
  * Clean directories
-      bash MakeClean.sh
+  
+        bash MakeClean.sh
       
 >The docker image for this project looks like this: ![akshi8/university_rankings](from_team/Docker_image.PNG)
 
